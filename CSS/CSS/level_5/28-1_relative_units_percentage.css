@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#first{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#second{
+    background-color: beige;
+    width: 50%;
+    height: 50%;
+    /* percentage apne parents elements ka height and width ke uper kaam kar ta hai */
+}

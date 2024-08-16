@@ -1,0 +1,16 @@
+button{
+    background-color: blue;
+    /* width: 100px; */
+    /* height: 100px; */
+}
+button:hover{
+    background-color: antiquewhite;
+    width: 50px;
+    /* display: none; */
+}
+button:active{
+    /* border-radius: 50px; */
+    background-color: aqua;
+    /* position: absolute;
+    right: 20px; */
+}

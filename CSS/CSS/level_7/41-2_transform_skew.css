@@ -1,0 +1,19 @@
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    text-align: center;
+    color: rgb(240, 9, 9);
+    border-radius: 50px;
+    
+}
+#first:hover{
+    transform: skew(50deg);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}

@@ -1,0 +1,22 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+    flex-direction: row;
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    
+    /* 1.align-content cross axis me space ko remove kar ne me kaam aata hai 
+    2 align content jo hai wha pure contain ko target kar ta hai.
+    */
+    align-content: center;
+}
+.box{
+    border: 1px solid black;
+    height: 25%;
+    width: 25%;
+    margin: 5px;
+    
+}

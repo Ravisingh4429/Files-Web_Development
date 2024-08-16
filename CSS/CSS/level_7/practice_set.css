@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    background-color: rgb(11, 255, 255);
+    width: 90%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 5%;
+}
+#bar{
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    animation-name: progress;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+}
+@keyframes progress {
+    0%{
+
+        width: 50%;
+    }
+    90%{
+        width: 95%;
+        
+    }
+    95%{
+        width: 70%;
+
+    }
+    100%{
+        width: 100%;
+
+    }
+}

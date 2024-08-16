@@ -1,0 +1,26 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+    
+    flex-direction: row;
+
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    
+    
+}
+.box{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    
+}
+/* NOTE:- 1.justify content only use in container box.
+2 main axis ke liya use hota hai.
+ */

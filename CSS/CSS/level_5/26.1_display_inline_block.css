@@ -1,0 +1,7 @@
+div{
+    display: inline-block;
+    /* inline -block we can set height and width */
+    background-color: antiquewhite;
+    width: 150px;
+    height: 100px;
+}

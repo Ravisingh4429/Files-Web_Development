@@ -1,0 +1,27 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+    flex-direction: row;
+    
+    display: flex;
+    
+
+    
+    align-items: center;
+    
+}
+.box{
+    
+    border: 1px solid black;
+    height: 25%;
+    width: 30%;
+    margin: 5px;
+    
+}
+#box1{
+    
+    /* flex-shrink only particular item ke liya use hota hai iss ka use kar ke apne kese bhi item ko jada patla kar sakte hai jab item shrink ho raha ho tab */
+    flex-shrink: 4;
+    
+}

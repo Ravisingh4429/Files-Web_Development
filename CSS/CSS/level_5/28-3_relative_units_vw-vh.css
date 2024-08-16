@@ -1,0 +1,6 @@
+div{
+    height: 50vh;
+    width: 50vw;
+    /* screen ka size ke uper yah kaam kar ta hai */
+    background-color: antiquewhite;
+}

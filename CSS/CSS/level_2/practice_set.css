@@ -1,0 +1,16 @@
+#bar{
+    background-color: rgba(230, 0, 0, 0.5);
+    background: no-repeat url(../../image/girls.jpg) ;
+
+    
+}
+#img_div{
+    background-image: url(../../image/girls.jpg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section{
+    color: beige;
+}

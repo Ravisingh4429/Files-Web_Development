@@ -1,0 +1,29 @@
+div{
+    background-color: cornflowerblue;
+    height: 20vh;
+    width: 20vw;
+    margin: 5px;
+}
+#box{
+    position: static;
+    /* default */
+}
+#box1{
+    position: relative;
+    left: 50px;
+    /* top: 5px; */
+    /* jaha default print hoga wha se position change kar ta hai */
+}
+#box2{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    /* screen ke top left corner se change kar ta hai position */
+    /* yah screen ke uper aa jata hai */
+
+}
+#box3{
+    position: fixed;
+    right: 20px;
+    /* yah screen ke uper aa jata hai and yah page par fix ho jata hai */
+}

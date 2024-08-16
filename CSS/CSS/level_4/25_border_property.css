@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: 5px double black;
+    border-radius: 20px;
+    background-image: url(../image/Screenshot\ \(412\).png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 5px;
+}

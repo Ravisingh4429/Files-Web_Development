@@ -1,0 +1,27 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
+    /* justify-content main axis ke liya use hota hai */
+
+    justify-content: center;
+
+    /* 1.align item cross axis ke liya use hota hai.
+    2 align item jo hai wha pure contain ko nhi target kar ta hai wha single item ko target kar ta hai.
+    */
+
+    align-items: end;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 25%;
+    width: 25%;
+    margin: 5px;
+    
+}

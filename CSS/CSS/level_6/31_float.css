@@ -1,0 +1,13 @@
+#container{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+}
+#box1{
+    float: right;
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}

@@ -1,0 +1,19 @@
+button{
+    background-color: rgb(237, 206, 9);
+    /* width: 100px; */
+    /* height: 100px; */
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s;
+    
+}
+button:hover{
+    background-color: rgb(234, 23, 23);
+    /* width: 1000px; */
+    /* display: none; */
+}
+button:active{
+    background-color: rgb(0, 255, 30);
+    /* width: 200px; */
+}

@@ -1,0 +1,12 @@
+div{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+#frt{
+    /* visibility: hidden; */
+    display: none;
+    /* display none not take space in page */
+    /* visibility hidden take space in page  */
+}

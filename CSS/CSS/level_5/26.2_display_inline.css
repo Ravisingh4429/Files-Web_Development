@@ -1,0 +1,5 @@
+div {
+    background-color: blueviolet;
+    display: inline;
+    /* inline element we can't set height and width */
+  }

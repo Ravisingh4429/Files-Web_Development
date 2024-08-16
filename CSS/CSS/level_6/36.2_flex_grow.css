@@ -1,0 +1,25 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+    flex-direction: row;
+    
+    display: flex;
+    
+
+    
+    align-items: center;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 25px;
+    width: 50px;
+    margin: 5px;
+    
+}
+#box1, #box2{
+    flex-grow: 1;
+    
+    
+}

@@ -1,0 +1,7 @@
+div{
+    background-image: url(../../image/girls.jpg);
+    height: 50px;
+    width: 150xpx;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

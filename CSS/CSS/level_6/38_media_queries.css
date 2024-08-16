@@ -1,0 +1,45 @@
+#width{
+    background-color: antiquewhite;
+    width: 150px;
+    height: 150px;
+}
+@media screen and (width:300px) {
+    #width{
+        background-color: aquamarine;
+    }
+}
+#min_width,#max_width{
+    background-color: rgb(189, 121, 32);
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+}
+@media screen and (min-width:300px) {
+    #min_width{
+        color: aliceblue;
+        background-color: black;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:720px) {
+    #max_width{
+        background-color: darkorchid;
+        width: 500px;
+        text-transform: uppercase;
+    }
+}
+#combination{
+    background-color: rgb(189, 121, 32);
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+}
+@media screen and (min-width:300px) and (max-width:720px) {
+    #combination{
+        background-color: darkorchid;
+        width: 500px;
+        text-transform: uppercase;
+    }
+}
+

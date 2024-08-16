@@ -1,0 +1,26 @@
+#container{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+
+    /* four type of value in flex-direction */
+
+    display: flex;
+    flex-direction: row;
+
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+}
+.box{
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    
+}
+/* NOTE:-  1. by default flex direction is row.
+
+2. flexbox container ke item kabhi bhi apne parent ko bhar nhi jate wha apne aap ko shrink kar lete hai
+
+ */
